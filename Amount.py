@@ -27,7 +27,7 @@ def amount_builder(nums_list, target_sum, result,
         if i > start and nums_list[i] == nums_list[i - 1]:
             continue
 
-            # Choose a number
+        # Choose a number
         current.append(nums_list[i])
 
         # Recursively explore
